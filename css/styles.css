@@ -30,9 +30,29 @@ a {
 .list {
     list-style: none;
 }
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 5px solid red;
+}
 
 /* Header styles */
+
+.header-container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+   
+}
+.header-nav {
+   
+}
+
 .logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
     font-family: 'Raleway',sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -40,7 +60,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-blue-color)
+
 }
+
 .dark-studio {
     color: var(--primary-navyblue-color);
 }
@@ -59,11 +81,11 @@ color: var(--primary-navyblue-color);
     color: var(--primary-ocean-color);
 }
 .address {
-    font-style: normal;
 }
 .adress-list {
 }
 .address-item {
+    align-items: center;
 }
 .address-mail {
 font-size: 16px;
