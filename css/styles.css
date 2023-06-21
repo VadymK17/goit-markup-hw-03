@@ -1,0 +1,222 @@
+/* Commot styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color);
+    background-color: var(--primary-whitef-color); 
+}
+:root {
+    --brand-color: #434455;
+    --primary-blue-color: #4d5ae5;
+    --primary-navyblue-color: #2E2F42;
+    --primary-white-color: #F4F4FD;
+    --primary-whitef-color: #ffffff;
+    --primary-ocean-color: #404BBF;
+}
+/* Reset */
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;  
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/* Header styles */
+.logo {
+    font-family: 'Raleway',sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-blue-color)
+}
+.dark-studio {
+    color: var(--primary-navyblue-color);
+}
+.light-style {
+    color: var(--primary-white-color);
+}
+.nav-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-navyblue-color);
+}
+.nav-list:hover,
+.nav-list:focus {
+    color: var(--primary-ocean-color);
+}
+.address {
+    font-style: normal;
+}
+.adress-list {
+}
+.address-item {
+}
+.address-mail {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--brand-color);
+}
+.address-mail:hover,
+.address-mail:focus {
+    color: var(--primary-ocean-color);
+}
+/* Hero styles */
+.hero {
+    background-color: var(--primary-navyblue-color);
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--primary-whitef-color);  
+}
+.hero-btn {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-whitef-color);
+background: var(--primary-blue-color);
+}
+.hero-btn:hover {
+    background: var(--primary-ocean-color);
+}
+.hero-btn:focus{
+    background: var(--primary-ocean-color);
+}
+/* Benefits styles */
+.benefits {
+}
+.benefits-title {
+}
+.benefits-item {
+}
+.benefits-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-navyblue-color);
+}
+.benefits-item-title-content {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--brand-color);
+}
+/* Doing section */
+.doing {
+}
+.doing-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-navyblue-color);
+}
+.doing-item {
+}
+.doing-img {
+}
+/* Team section */
+.team {
+    background-color: var(--primary-white-color);
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-navyblue-color);
+}
+.team-item {
+    background-color: var(--primary-whitef-color);
+}
+.team-img {
+}
+.team-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-navyblue-color);
+}
+.team-item-content {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--brand-color);
+}
+/* Footer styles */
+.footer {
+    background-color: var(--primary-navyblue-color);
+}
+.footer-content {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-white-color);
+}
+/* Button section */
+.button-section {
+}
+.button-title {
+}
+.button-item {
+}
+.button-item :hover {
+    background-color: var(--primary-ocean-color);
+    color:var(--primary-whitef-color);
+}
+.button-item :focus {
+    background-color: var(--primary-ocean-color);
+    color:var(--primary-whitef-color);
+}
+.button-item-style {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-blue-color);
+    background-color: var(--primary-white-color);
+}
+/* Portfolio styles */
+.portfolio-section {
+}
+.portfolio-item {
+}
+.portfolio-images {
+}
+.portfolio-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-navyblue-color);
+}
+.portfolio-content {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--brand-color);
+}
