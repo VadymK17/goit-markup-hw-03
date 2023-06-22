@@ -14,7 +14,7 @@ body {
 }
 /* Reset */
 h1,h2,h3,h4,h5,h6, p{
-    margin: 0;
+    margin: 0 auto;
 }
 ul,ol {
     list-style: none;
@@ -32,8 +32,8 @@ a {
 }
 .container {
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0 15px;
     outline: 5px solid red;
 }
 
@@ -41,15 +41,21 @@ a {
 
 .header-container {
     display: flex;
+    justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
    
 }
 .header-nav {
+    display: flex;
+    text-align: center;
    
 }
 
 .logo {
+    display: flex;
+    text-align: center;
+    margin-right: 76px;
     padding-top: 25px;
     padding-bottom: 25px;
     
@@ -69,6 +75,11 @@ color: var(--primary-blue-color)
 .light-style {
     color: var(--primary-white-color);
 }
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .nav-list {
 font-weight: 500;
 font-size: 16px;
@@ -81,6 +92,15 @@ color: var(--primary-navyblue-color);
     color: var(--primary-ocean-color);
 }
 .address {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+
+.adress-link {
+    display: flex;
+    text-align: center;
+    gap: 40px;
 }
 .adress-list {
 }
@@ -98,16 +118,24 @@ color: var(--brand-color);
     color: var(--primary-ocean-color);
 }
 /* Hero styles */
+.hero-container {
+    outline: 5px solid red;
+}
 .hero {
     background-color: var(--primary-navyblue-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
+    
+    width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: var(--primary-whitef-color);  
+color: var(--primary-whitef-color); 
+margin-bottom: 48px; 
 }
 .hero-btn {
     font-family: "Roboto", sans-serif;
@@ -118,6 +146,13 @@ color: var(--primary-whitef-color);
     letter-spacing: 0.04em;
     color: var(--primary-whitef-color);
 background: var(--primary-blue-color);
+min-width: 169px;
+min-height: 56px;
+padding: 16px 32px;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+display: block;
+margin: 0 auto;
 }
 .hero-btn:hover {
     background: var(--primary-ocean-color);
@@ -128,9 +163,19 @@ background: var(--primary-blue-color);
 /* Benefits styles */
 .benefits {
 }
+.div-benefits {
+}
 .benefits-title {
 }
+.benefits-list {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    justify-content: space-between;
+    
+}
 .benefits-item {
+    width: 264px;
 }
 .benefits-item-title {
 font-weight: 500;
@@ -138,6 +183,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-navyblue-color);
+margin-bottom: 8px;
 }
 .benefits-item-title-content {
 font-size: 16px;
