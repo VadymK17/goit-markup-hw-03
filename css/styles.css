@@ -24,6 +24,9 @@ ul,ol {
 a {
     text-decoration: none;  
 }
+img {
+    display: block;
+}
 .link {
     text-decoration: none;
 }
@@ -33,10 +36,26 @@ a {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /* Header styles */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
     display: flex;
@@ -48,6 +67,7 @@ a {
 .header-nav {
     display: flex;
     text-align: center;
+    align-items: center;
    
 }
 
@@ -100,6 +120,7 @@ color: var(--primary-navyblue-color);
     display: flex;
     text-align: center;
     gap: 40px;
+    padding: 24px 0;
 }
 .adress-list {
 }
@@ -126,7 +147,7 @@ color: var(--brand-color);
 }
 .hero-title {
     
-    width: 496px;
+    max-width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -145,12 +166,12 @@ margin-bottom: 48px;
     color: var(--primary-whitef-color);
 background: var(--primary-blue-color);
 min-width: 169px;
-min-height: 56px;
-padding: 16px 32px;
+height: 56px;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 display: block;
 margin: 0 auto;
+border: none; 
 }
 .hero-btn:hover {
     background: var(--primary-ocean-color);
@@ -159,7 +180,8 @@ margin: 0 auto;
     background: var(--primary-ocean-color);
 }
 /* Benefits styles */
-.benefits {
+.benefits-section {
+    padding: 120px 0;
 }
 .div-benefits {
 }
@@ -170,10 +192,11 @@ margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
     justify-content: space-between;
+    gap: 24px;
     
 }
 .benefits-item {
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 .benefits-item-title {
 font-weight: 500;
@@ -190,7 +213,8 @@ letter-spacing: 0.02em;
 color: var(--brand-color);
 }
 /* Doing section */
-.doing {
+.doing-section {
+    padding-bottom: 120px;
 }
 .doing-title {
     font-weight: 700;
@@ -205,14 +229,13 @@ margin-bottom: 72px;
 .doing-list {
     display: flex;
     gap: 24px;
-    margin-right: 156px;
-    margin-left: 156px;
-    justify-content: space-around;
     margin-bottom: 156px;
 }
 .doing-item {
+    
 }
 .doing-img {
+    width:((100% - 48px) / 3);
 }
 /* Team section */
 .team {
