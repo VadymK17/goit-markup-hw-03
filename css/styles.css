@@ -118,7 +118,6 @@ color: var(--brand-color);
 }
 /* Hero styles */
 .hero-container {
-    outline: 5px solid red;
 }
 .hero {
     background-color: var(--primary-navyblue-color);
