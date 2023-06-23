@@ -36,9 +36,9 @@ img {
     list-style: none;
 }
 .container {
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 .visually-hidden {
     position: absolute;
@@ -77,9 +77,7 @@ img {
     display: flex;
     text-align: center;
     margin-right: 76px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
+    padding:24px 0;
     font-family: 'Raleway',sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -94,6 +92,7 @@ color: var(--primary-blue-color)
     color: var(--primary-navyblue-color);
 }
 .light-style {
+    display: inline-block;
     color: var(--primary-white-color);
 }
 .nav-link {
@@ -122,7 +121,6 @@ color: var(--primary-navyblue-color);
     display: flex;
     text-align: center;
     gap: 40px;
-    padding: 24px 0;
 }
 .adress-list {
 }
@@ -195,7 +193,7 @@ border: none;
     
 }
 .benefits-item {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 48px) / 3);
 }
 .benefits-item-title {
 font-weight: 500;
@@ -323,8 +321,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 0 auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px
 
 }
 .button-item {
