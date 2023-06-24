@@ -74,7 +74,6 @@ img {
 }
 
 .logo {
-    display: flex;
     text-align: center;
     margin-right: 76px;
     padding:24px 0;
@@ -99,11 +98,11 @@ color: var(--primary-blue-color)
 .nav-list {
 font-weight: 500;
 font-size: 16px;
-padding: 24px 0;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-navyblue-color);
 padding:24px 0;
+display: block;
 }
 .nav-list:hover,
 .nav-list:focus {
@@ -259,14 +258,11 @@ margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-    margin-bottom: 32px;
 }
 .div-team-members {
     padding: 32px 16px
 }
 .team-item-title {
-    display: flex;
-    justify-content: center;
     text-align: center;
     margin-bottom: 8px;
 font-weight: 500;
@@ -276,8 +272,6 @@ letter-spacing: 0.02em;
 color: var(--primary-navyblue-color);
 }
 .team-item-content {
-    display: flex;
-    justify-content: center;
     text-align: center;
 font-size: 16px;
 line-height: 1.5;
@@ -293,7 +287,7 @@ color: var(--brand-color);
 }
 .footer-logo {
     display: inline-block;
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
     text-align: start;
     padding-top: 0;
     padding-bottom: 0;
@@ -370,7 +364,6 @@ margin: 0;
     border-top: none;
 }
 .portfolio-title {
-    display: flex;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -379,7 +372,6 @@ color: var(--primary-navyblue-color);
     margin-bottom: 8px;
 }
 .portfolio-content {
-    display: flex;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
