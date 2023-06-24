@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6, p{
 ul,ol {
     list-style: none;
     margin: 0;
-    
+    padding: 0;
 }
 a {
     text-decoration: none;  
@@ -62,8 +62,6 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
    
 }
 .header-nav {
@@ -103,6 +101,7 @@ padding: 24px 0;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-navyblue-color);
+padding:24px 0;
 }
 .nav-list:hover,
 .nav-list:focus {
