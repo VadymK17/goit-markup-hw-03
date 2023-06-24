@@ -28,6 +28,7 @@ a {
 }
 img {
     display: block;
+    height: auto;
 }
 .link {
     text-decoration: none;
