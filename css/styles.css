@@ -99,11 +99,11 @@ color: var(--primary-blue-color)
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 .nav-list {
 font-weight: 500;
 font-size: 16px;
+padding: 24px 0;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-navyblue-color);
@@ -122,12 +122,10 @@ color: var(--primary-navyblue-color);
     display: flex;
     text-align: center;
     gap: 40px;
-    padding:24px 0;
-}
-.adress-list {
 }
 .address-item {
     align-items: center;
+    padding: 24px 0;
 }
 .address-mail {
 font-size: 16px;
