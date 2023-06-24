@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6, p{
 ul,ol {
     list-style: none;
     margin: 0;
-    padding: 0;
+    
 }
 a {
     text-decoration: none;  
@@ -38,7 +38,7 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 .visually-hidden {
     position: absolute;
