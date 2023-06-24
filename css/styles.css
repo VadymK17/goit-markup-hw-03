@@ -37,8 +37,8 @@ img {
 }
 .container {
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
@@ -90,10 +90,6 @@ color: var(--primary-blue-color)
 
 .dark-studio {
     color: var(--primary-navyblue-color);
-}
-.light-style {
-    display: inline-block;
-    color: var(--primary-white-color);
 }
 .nav-link {
     display: flex;
@@ -291,9 +287,6 @@ color: var(--brand-color);
     background-color: var(--primary-navyblue-color);
 }
 .footer-container {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .footer-logo {
     display: inline-block;
@@ -303,8 +296,10 @@ color: var(--brand-color);
     padding-bottom: 0;
     width: 115px;
 }
+.light-style {
+    color: var(--primary-white-color);
+}
 .footer-content {
-display: flex;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
